@@ -159,12 +159,11 @@ span.name {
   object-fit: cover
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 374px) {
   .img-recipe{
     height: 70px; 
     width: 70px; 
   }
-}
+
  
 
 @media only screen and (min-device-width : 375px) and (max-device-width : 480px) {
@@ -186,5 +185,13 @@ span.name {
   .image-column{
     text-align: center;
   }
+}
+
+@media only screen and (min-device-width : 600px)  {
+.img-recipe{
+  height: 200px; 
+  width: 200px; 
+  object-fit: cover
+}
 }
 
