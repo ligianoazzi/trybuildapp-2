@@ -164,9 +164,9 @@ span.name {
 
 @media only screen and (min-device-width : 375px) and (max-device-width : 480px) {
   .img-recipe{
-    height: 70px !important; 
-    width: 70px !important; 
-    object-fit: cover !important
+    height: 70px; 
+    width: 70px; 
+    object-fit: cover
 
   }
 }
@@ -185,11 +185,11 @@ span.name {
   }
 }
 
-@media only screen and (min-device-width : 600px)  {
+@media only screen and (min-device-width : 600px) and (max-device-width : 1280px) {
 .img-recipe{
-  height: 200px !important; 
-  width: 200px !important;
-  object-fit: cover !important;
+  height: 200px; 
+  width: 200px;
+  object-fit: cover;
 }
 }
 
