@@ -187,8 +187,8 @@ span.name {
 
 @media only screen and (min-device-width : 600px)  {
 .img-recipe{
-  height: 100px !important; 
-  width: 100px !important;
+  height: 50px !important; 
+  width: 50px !important;
   object-fit: cover !important;
 }
 }
