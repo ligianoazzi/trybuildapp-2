@@ -1,0 +1,72 @@
+<md-content>
+
+        <div layout-gt-sm="column">
+
+          <md-content align="center">
+
+            <md-input-container align="center">
+              <label>Search by name</label>
+              <input ng-model="filterRecipe" type="text" size="50%">
+            </md-input-container>
+            
+          </md-content>
+          
+          <md-card layout flex="100">
+          <md-card-content  layout-sm="column" flex="100">
+
+                    <div layout-gt-sm="row">
+                        <md-input-container class="md-block" flex-gt-sm>
+                          NAME
+                        </md-input-container>
+
+                        <md-input-container class="md-block" flex-gt-sm>
+                          DESCRIPTION
+                        </md-input-container>
+
+
+                        <md-input-container class="md-block" flex-gt-sm>
+                          IMAGE
+                        </md-input-container>
+
+                        <md-input-container class="md-block" flex-gt-sm align="center">
+                          SHOW METHOD
+                        </md-input-container>
+                    </div>  
+
+          </md-card-content>
+          </md-card>                    
+
+          <md-card layout flex="100"  ng-repeat="cli in clientes.data | filter: filterRecipe">
+          <md-card-content  layout-sm="column" flex="100">
+
+                    <div layout-gt-sm="row">
+                        <md-input-container class="md-block" flex-gt-sm>
+                          {{cli.name}}
+                        </md-input-container>
+
+                        <md-input-container class="md-block" flex-gt-sm>
+                          {{cli.description}}
+                        </md-input-container>
+
+
+                        <md-input-container class="md-block" flex-gt-sm>
+                          <img src="assets/img/{{cli.img}}" height="80px" /> 
+                        </md-input-container>
+
+                        <md-input-container class="md-block" flex-gt-sm>
+                          <input type="checkbox" ng-model="checked" aria-label="Toggle ngShow">
+                        </md-input-container>                      
+
+                    </div>   
+
+                    <div layout-gt-sm="row" class="check-element animate-show-hide" ng-show="checked">
+                          METHOD: {{cli.method}}
+                    </div>      
+
+          </md-card-content>
+
+          </md-card>
+
+        </div>   
+
+</md-content>
