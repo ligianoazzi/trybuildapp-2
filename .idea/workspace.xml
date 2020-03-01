@@ -1,19 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f163323-33ea-413e-9fc8-2eff8623782a" name="Default Changelist" comment="" />
+    <list default="true" id="0f163323-33ea-413e-9fc8-2eff8623782a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/www/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/app/assets/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/app/assets/img/a-pancake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/app/assets/img/bb-pancake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/app/assets/img/cake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/app/assets/img/cc-cake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/app/assets/img/cc-cookies.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/app/assets/img/f-pancake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/app/assets/img/fresh-pasta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/app/assets/img/pizza-dough.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/app/assets/img/pizza-m.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/app/assets/img/r-cake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/app/assets/img/r-cookies.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/app/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/app/myApp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/app/recipe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/app/src/main_controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/app/src/recipe/recipe_controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/package.json" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -54,7 +80,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="68" y="20" width="1400" height="784" extended-state="1" />
+    <frame x="68" y="20" width="1400" height="784" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.3294204" />
       <window_info id="Structure" side_tool="true" />
