@@ -14,23 +14,18 @@
           <md-card layout flex="100">
           <md-card-content  layout-sm="column" flex="100">
 
-                    <div layout-gt-sm="row">
-                        <md-input-container class="md-block" flex-gt-sm>
+                    <div layout="row" class="title">
+                        <div flex="30" class="title-column">
                           NAME
-                        </md-input-container>
+                        </div>
 
-                        <md-input-container class="md-block" flex-gt-sm>
+                        <div flex="40" class="title-column">
                           DESCRIPTION
-                        </md-input-container>
+                        </div>
 
-
-                        <md-input-container class="md-block" flex-gt-sm>
+                        <div flex="30" class="image-column title-column">
                           IMAGE
-                        </md-input-container>
-
-                        <md-input-container class="md-block" flex-gt-sm align="center">
-                          SHOW METHOD
-                        </md-input-container>
+                        </div>
                     </div>  
 
           </md-card-content>
@@ -39,28 +34,24 @@
           <md-card layout flex="100"  ng-repeat="cli in clientes.data | filter: filterRecipe">
           <md-card-content  layout-sm="column" flex="100">
 
-                    <div layout-gt-sm="row">
-                        <md-input-container class="md-block" flex-gt-sm>
+
+                    <div layout="row" class="row-recipe" ng-click="visibleDiv='div1'">
+                        <div flex="30" class="content-row-recipe">
                           {{cli.name}}
-                        </md-input-container>
+                        </div>
 
-                        <md-input-container class="md-block" flex-gt-sm>
+                        <div flex="40" class="content-row-recipe">
                           {{cli.description}}
-                        </md-input-container>
+                        </div>
 
-
-                        <md-input-container class="md-block" flex-gt-sm>
-                          <img src="assets/img/{{cli.img}}" height="80px" /> 
-                        </md-input-container>
-
-                        <md-input-container class="md-block" flex-gt-sm>
-                          <input type="checkbox" ng-model="checked" aria-label="Toggle ngShow">
-                        </md-input-container>                      
-
+                        <div flex="30" class="content-row-recipe image-column">
+                          <img src="assets/img/{{cli.img}}" class="img-recipe"/> 
+                       </div>
                     </div>   
+ 
 
-                    <div layout-gt-sm="row" class="check-element animate-show-hide" ng-show="checked">
-                          METHOD: {{cli.method}}
+                    <div class="content-row-recipe" layout-gt-sm="row"  ng-show="visibleDiv == 'div1'" ng-click="visibleDiv = div2">
+                        <img src="assets/img/baseline_expand_less_black_18dp.png" class="hide-method">  METHOD: {{cli.method}}
                     </div>      
 
           </md-card-content>
