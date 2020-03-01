@@ -153,15 +153,11 @@ span.name {
   padding: 5px;
 }
 
-.img-recipe{
-  height: 200px; 
-  width: 200px; 
-  object-fit: cover
-}
 
   .img-recipe{
     height: 70px; 
     width: 70px; 
+    object-fit: cover
   }
 
  
