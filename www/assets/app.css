@@ -160,8 +160,8 @@ span.name {
 
 @media only screen and (min-width : 0px) and (max-width : 600px) {
   .img-recipe{
-    height: 70px; 
-    width: 70px;
+    height: 80px; 
+    width: 80px;
     object-fit: cover;
   }
 }
