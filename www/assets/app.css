@@ -153,16 +153,11 @@ span.name {
   padding: 5px;
 }
 
-
-  .img-recipe{
-    height: 60px; 
-    width: 60px; 
-    object-fit: cover
-  }
-
+.image-column{
+  text-align: center;
+}
  
-
-@media only screen and (min-device-width : 375px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 0px) and (max-device-width : 600px) {
   .img-recipe{
     height: 70px; 
     width: 70px; 
@@ -171,25 +166,11 @@ span.name {
   }
 }
  
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  .title{
-    font-size: 3.7vw;
+@media only screen and (min-device-width : 601px) and (max-device-width : 1280px) {
+  .img-recipe{
+    height: 200px; 
+    width: 200px;
+    object-fit: cover;
   }
-}
-
-
-@media only screen and (min-device-width : 481px)  {
-  .image-column{
-    text-align: center;
-  }
-}
-
-@media only screen and (min-device-width : 600px) and (max-device-width : 1280px) {
-.img-recipe{
-  height: 200px; 
-  width: 200px;
-  object-fit: cover;
-}
 }
 
